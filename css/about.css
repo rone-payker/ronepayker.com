@@ -1,0 +1,155 @@
+.about{
+    width: 100%;
+    padding: 30px 0px;
+    text-align: center;
+}
+.about .te-my{
+    text-align: left;
+}
+.about .te-my h1{
+    font-size: 30px;
+    line-height: 2.5rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    text-align: left;
+    color: #000;
+    border-bottom: 1px solid rgba(0, 0, 128);
+    border-radius: 5px;
+}
+.about .te-my h1 strong{
+    color:rgba(0, 0, 128);
+}
+.about .te-my p{
+    font-size: 18px;
+    line-height: 1.560rem;
+    color: rgba(0, 0, 0);
+    text-align: left;
+    font-weight: 400;
+    padding: 0px 20px;
+}
+.about .te-my .btn-outline-primary{
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 500;
+    padding: 10px 40px;
+    line-height: 1.700rem;
+    border: 2px solid rgba(0, 0, 128);
+    border-radius: 0px;
+    transition: 1s;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    text-align: left;
+    margin: 0px 0px 0px 20px;
+}
+.about .te-my .btn-outline-primary span{
+    background: rgba(0, 0, 128);
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+.about .te-my .btn-outline-primary:hover span{
+    width: 100%;
+}
+.about .te-my .btn-outline-primary:hover{
+    outline: none;
+    background: none;
+}
+.about .te-pic img{
+    width: 70%;
+    margin-left: 250px;
+}
+.about .skill{
+    width: 100%;
+   
+}
+.about .skill h4{
+    font-size: 30px;
+    line-height: 1.625rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    text-align: left;
+    padding: 20px 0px;
+}
+.about .sk-3 {
+    text-align: left;
+    padding: 0px 20px;
+}
+.about .sk-3 h3{
+    display: inline-block;
+    padding: 10px 30px;
+    background: #E7E7E7;
+    color: #666666;
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 1.834rem;
+    margin-top: 10px; 
+    margin-right: 15px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.about .sk-3 h3:hover{
+    color: rgb(255, 255, 255);
+    background: rgba(0, 0, 128);
+   transform: translateY(-10px);
+}
+.about .experience h4{
+    font-size: 30px;
+    line-height: 1.625rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    text-align: left;
+    padding: 20px 0px;
+    margin: 0px 0px 20px;
+}
+.about .ex-3{
+    padding: 0px 20px;
+}
+.about .experience .card{
+    width: 17rem;
+    display: flex;
+    padding: 20px;
+    margin: 0px 15px;
+    background: #fff;
+    box-shadow: 0px 12px 28px 0px rgba(0, 0, 0, 0.2), 0px 2px 4px 0px rgba(0, 0, 0, 0.1), 0px 0px 0px 1px rgba(255, 255, 255, 0.05) inset;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.about .experience .card .card-body .fa-html5{
+    font-size: 65px;
+    line-height: 4.063rem;
+    margin: 0px 0px 10px;
+}
+.about .experience .card .card-body .fa-wordpress{
+    font-size: 65px;
+    line-height: 4.063rem;
+    margin: 0px 0px 10px;
+}
+.about .experience .card .card-body  .fa-cart-shopping{
+    font-size: 65px;
+    line-height: 4.063rem;
+    margin: 0px 0px 10px;
+}
+.about .experience .card .card-body .fa-screwdriver-wrench{
+    font-size: 65px;
+    line-height: 4.063rem;
+    margin: 0px 0px 10px;
+}
+.about .experience .card .card-body .card-title{
+    font-size: 16px;
+    line-height: 1.650rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #000;
+}
+.about .experience .card:hover{
+    color: #fff;
+    background: rgba(21, 105, 252, 0.48);
+    transform: translateY(-5px) scale(1.005) translateZ(0);
+    box-shadow: 0 24px 36px rgba(0,0,0,0.11),
+      0 24px 46px rgba(21, 105, 252, 0.48);
+}

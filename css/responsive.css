@@ -1,0 +1,1484 @@
+@media (min-width: 320px) and (max-width: 480px){
+    /*==============index.html responsve===========*/
+    /*css start */
+      .container{
+        width: 100%;
+      }
+      .header{
+        width: 100%;
+        background: #fff;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.10), 0 3px 6px rgba(0,0,0,0.10);
+    }
+    .navbar .navbar-brand{
+        width: 50%;
+    }
+    .navbar .navbar-brand img{
+        width: 100%;
+    }
+    .navbar .navbar-toggler{
+        background: #09c;  
+    }
+    .banner{
+        width: 100%;
+        padding: 0px 0px;
+    }
+    .banner .text{
+        margin-bottom: 20px;
+    }
+    .banner .text h6{
+        font-size: 20px;
+        line-height: 1.000rem;
+        font-weight: 500;
+        color: rgba(0, 0, 128);
+        text-transform: capitalize;
+    }
+    .banner .text h1{
+        font-size: 25px;
+        line-height: 2.100rem;
+        font-weight: 550;
+        text-align: left;
+        text-transform: uppercase;
+        color: rgba(0, 0, 0);
+    }
+    .banner .text h4{
+        font-size: 14px;
+        line-height: 1rem;
+        font-weight: 500;
+        color: rgba(0, 0, 0);
+        margin: -20px 0px 0px;
+        text-transform: capitalize;
+    }
+    .banner .text p{
+        font-size: 10px;
+        line-height: 1rem;
+        font-weight: 400;
+        color: #800080;
+        margin: 0px 0px 20px;
+    }
+    .banner .text h4 .typing{
+        font-size: 14px;
+        line-height: 2.188rem;
+        font-weight: 600;
+        text-transform: capitalize;
+        color: rgba(0,0,128);
+    }
+    .banner .btn-outline-primary{
+        font-size: 18px;
+        text-transform: capitalize;
+        font-weight: 500;
+        padding: 8px 25px;
+        line-height: 1.700rem;
+        margin-right: 15px;
+        border-radius: 0%;
+        transition: 1s;
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+    }
+    .banner .btn-outline-primary span{
+        background: rgb(0,0,128);
+        position: absolute;
+        height: 100%;
+        width: 0%;
+        left: 0;
+        bottom: 0;
+        z-index: -1;
+        transition: 0.5s;
+    }
+    .banner .btn-outline-primary:hover span{
+        width: 100%;
+    }
+    .banner .btn-outline-primary:hover{
+        outline: none;
+        background: none;
+    }
+    .banner .btn-outline-primary .fa-arrow-right-to-bracket{
+        font-size: 16px;
+        line-height: 1rem;
+        margin: 0px 0px 0px 10px;  
+    }
+    .banner .image img {
+        width: 73%;
+        margin: 10px 40px;
+        animation-name: imageUpDown;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+    }
+    .footer{
+        width: 100%;
+    }
+    .footer .social{
+        width: 100%;
+        text-align: center;
+        margin-bottom: -30px;
+    }
+    .footer ul li a{
+        font-size: 15px;
+        line-height: 1rem;
+        font-weight: 500;
+        margin: 0px 10px 0px 0px;
+    }
+    .footer .copyright{
+        width:100%;
+    }
+    .footer .copyright p{
+        font-size: 14px;
+        line-height: 1rem;
+        font-weight: 500;
+        text-transform: capitalize;
+        text-align: center;
+    }
+ /*==============index.html responsve end===========*/
+    
+    /*==============about.css responsve start===========*/
+    .about{
+        width: 100%;
+        padding: 30px 0px;
+    }
+    .about .te-my{
+        width: 90%;
+    }
+    .about .te-pic{
+        width: 100%;
+        margin: 40px 0px 0px -216px;
+    }
+    .about .te-my h1{
+        font-size: 20px;
+        line-height: 2rem;
+        font-weight: 500;
+        text-transform: capitalize;
+        text-align: left;
+        color: #000;
+        border-bottom: 1px solid rgba(0, 0, 128);
+        border-radius: 5px;
+    }
+    .about .te-my h1 strong{
+        color:rgba(0, 0, 128);
+    }
+    .about .te-my p{
+        font-size: 11px;
+        line-height: 1rem;
+        color: rgba(0, 0, 0);
+        text-align: left;
+        font-weight: 400;
+        padding: 0px 20px;
+    }
+    .about .te-my .btn-outline-primary{
+        font-size: 16px;
+        text-transform: capitalize;
+        font-weight: 500;
+        padding: 5px 30px;
+        line-height: 1.700rem;
+        border: 2px solid rgba(0, 0, 128);
+        transition: 1s;
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+        text-align: left;
+        margin: 0px 0px 0px 20px;
+    }
+    .about .te-my .btn-outline-primary span{
+        background: rgba(0, 0, 128);
+        position: absolute;
+        height: 100%;
+        width: 0%;
+        left: 0;
+        bottom: 0;
+        z-index: -1;
+        transition: 0.5s;
+    }
+    .about .te-my .btn-outline-primary:hover span{
+        width: 100%;
+    }
+    .about .te-my .btn-outline-primary:hover{
+        outline: none;
+        background: none;
+    }
+    .about .te-pic img{
+        width: 70%;
+        margin-left: 250px;
+    }
+    .about .skill h4{
+        font-size: 20px;
+        line-height: 1.625rem;
+        font-weight: 500;
+        text-transform: capitalize;
+        text-align: left;
+        padding: 20px 0px 0px;
+    }
+    .about .sk-3 {
+        text-align: left;
+        padding: 0px 10px;
+    }
+    .about .sk-3 h3{
+        display: inline-block;
+        padding: 5px 30px;
+        background: #E7E7E7;
+        color: #666666;
+        text-transform: uppercase;
+        font-size: 16px;
+        line-height: 1.834rem;
+        margin-top: 10px; 
+        margin-right: 15px;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+    .about .experience h4{
+        font-size: 20px;
+        line-height: 1.625rem;
+        font-weight: 500;
+        text-transform: capitalize;
+        text-align: left;
+        padding: 20px 0px;
+        margin: 0px 0px 0px;
+    }
+    .about .ex-3{
+        padding: 0px 5px;
+    }
+    .about .experience .card{
+        display: flex;
+        padding: 20px;
+        margin: 0px 10px;
+        background: #fff;
+        box-shadow: 0px 12px 28px 0px rgba(0, 0, 0, 0.2), 0px 2px 4px 0px rgba(0, 0, 0, 0.1), 0px 0px 0px 1px rgba(255, 255, 255, 0.05) inset;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+
+    /*==============about.css responsve end===========*/
+    /*==============project.css responsve start===========*/
+
+    .projects-show{
+        width: 100%;
+        padding: 20px 0px;
+    }
+    .projects-show .project-te h1{
+        font-size: 20px;
+        line-height: 2rem;
+        font-weight: 500;
+        text-transform: capitalize;
+        text-align: left;
+        color: #000;
+        border-bottom: 1px solid rgba(0, 0, 128);
+        border-radius: 5px;
+    }
+    .projects-show .project-te h1 strong{
+        color: rgba(0, 0, 128);
+    }
+    .projects-show .project-te p{
+        font-size: 9px;
+        line-height: 1rem;
+        color: rgba(0, 0, 0);
+        text-align: left;
+        font-weight: 400;
+        padding: 0px 20px;
+    }
+    .container-3{
+        width: 95%;
+        margin: 0px auto;
+        border-radius: 30px;
+        background: #fefefd;
+        border: 0.5px solid #000;
+        box-shadow: 0 0 10px 0 rgba(0,0,0,0.45) inset;
+        padding-top: 0px; 
+    }
+    .project-img img{
+        width: 75%;
+        margin: 20px 0px 30px 35px;
+    }
+    .container-3 .project-text{
+        padding: 20px 0px 10px 27px;
+    }
+    .container-3 .project-text h3{
+        font-size: 13px;
+        line-height: 1.25rem;
+        font-weight: 500;
+        text-transform: capitalize;
+        margin: 25px 0px -10px;
+    }
+    .container-3 .project-text h1{
+        font-size: 17px;
+        line-height: 2.5rem;
+        font-weight: 500;
+        text-transform: capitalize;
+        text-align: left;
+        color: #000;
+        cursor: pointer;
+    }
+    .container-3 .project-text p{
+        font-size: 9px;
+        line-height: 1rem;
+        color: rgba(0, 0, 0);
+        text-align: left;
+        font-weight: 400;
+        margin: -10px 0px 20px;
+    }
+    .container-3 .project-text .btn{
+        font-size: 14px;
+        text-transform: capitalize;
+        font-weight: 600;
+        position: relative;
+        padding: 10px 30px;
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+        outline: none;
+        margin: 10px 0px;
+      }
+      .container-3 .project-text .type3::after,
+      .container-3 .project-text .type3::before{
+            content: '';
+            display: block;
+            position: absolute;
+            width: 20%;
+            height: 40%;
+            border: 2px solid #000;
+            transition: all 0.6s ease;
+            border-radius: 2px;
+      }
+      .container-3 .project-text .type3::after{
+            bottom: 8%;
+            right: 3%;
+            border-top-color: transparent;
+            border-left-color: transparent;
+            border-bottom-color: #09c;
+            border-right-color: #000;
+      }
+      .container-3 .project-text .type3::before{
+            top: 0;
+            left: 0;
+            border-bottom-color: transparent;
+            border-right-color: transparent;
+            border-top-color: #09c;
+            border-left-color: #000;
+      }
+      .container-3 .project-text .type3:hover:after,
+      .container-3 .project-text .type3:hover:before{
+            border-bottom-color: #09c;
+            border-right-color: #000;
+            border-top-color: #09c;
+            border-left-color: #000;
+            width: 100%;
+            height: 100%;
+      }
+ /*==============contact.css responsve start===========*/
+        .contact{
+            width: 100%;
+            padding: 80px 0px;
+        }
+        .contact .contact-text h1{
+            font-size: 20px;
+            line-height: 2.5rem;
+            font-weight: 500;
+            text-transform: capitalize;
+            text-align: left;
+            color: #000;
+            border-bottom: 1px solid rgba(0, 0, 128);
+            border-radius: 5px;
+            margin: 0px 0px 20px;
+        }
+        .contact .contact-text h1 strong{
+            color: rgba(0, 0, 128);
+        }
+        .contact .contact-text p {
+            font-size: 11px;
+            line-height: 1rem;
+            color: rgba(0, 0, 0);
+            text-align: left;
+            font-weight: 400;
+            padding: 0px 20px;
+        }
+        .container-4{
+            width: 100%;
+            margin: 0px auto;
+            border-radius: 30px;
+            background: #fefefd;
+            margin-bottom: 40px; 
+            padding: 0px 0px;
+        }
+        .container-4 .card{
+            width: 88%;
+            box-shadow: 0px 12px 28px 0px rgba(140, 149, 159, 0.3);
+            margin: 20px 25px;
+           
+        }
+        .container-4 .card .fa-house{
+            position: absolute;
+            top: 20px;
+            left: 10px;
+            font-size: 30px;
+            color: rgb(25,25,112);
+            padding: 10px;
+            border: 2px solid transparent;
+            border-radius: 100%;
+            background: rgb(176,224,230);
+        }
+        .container-4 .card .fa-people-arrows{
+            position: absolute;
+            top: 20px;
+            left: 10px;
+            font-size: 30px;
+            color: rgb(25,25,112);
+            padding: 10px;
+            border: 2px solid transparent;
+            border-radius: 100%;
+            background: rgb(176,224,230);
+        }
+        .container-4 .card .fa-envelope{
+            position: absolute;
+            top: 20px;
+            left: 10px;
+            font-size: 30px;
+            color: rgb(25,25,112);
+            padding: 10px;
+            border: 2px solid transparent;
+            border-radius: 100%;
+            background: rgb(176,224,230);
+        }
+        .container-4 .card .fa-phone{
+            position: absolute;
+            top: 20px;
+            left: 10px;
+            font-size: 30px;
+            color: rgb(25,25,112);
+            padding: 10px;
+            border: 2px solid transparent;
+            border-radius: 100%;
+            background: rgb(176,224,230);
+        }
+        .container-4 .card .card-body{
+            margin: 10px 10px 10px;
+        }
+        .container-4 .card .card-body .card-title {
+            font-size: 15px;
+            font-weight: 700;
+            text-transform: capitalize;
+            line-height: 1.75rem;
+            text-align: left;
+            margin: 5px 43px 0px;
+        }
+        .container-4 .card .card-body .card-text{
+            font-size: 12px;
+            font-weight: 600;
+            line-height: 1.25rem;
+            text-align: left;
+            margin: -7px 0px 0px 43px;
+        }
+        .container-4 .card .card-body ul{
+            margin: -7px 0px 0px 5px;
+        }
+        .container-4 .card .card-body ul li{
+           list-style: none;
+           display: inline-block;
+        }
+        .container-4 .card .card-body ul li a{ 
+           font-size: 14px;
+           line-height: 1rem;
+           margin: 0px 0px 0px 5px;
+         }
+         .container-4 .card .card-body ul li a:hover{ 
+           color: rgba(255,0,0);
+          }
+
+ /*==============contact.css responsve end===========*/
+
+
+/*css end */
+
+
+}
+@media (min-width: 481px) and (max-width: 767px){
+    /*==============index.html responsve start===========*/
+    /*css start */
+    .container{
+        width: 100%;
+      }
+      .header{
+        width: 100%;
+        background: #fff;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.10), 0 3px 6px rgba(0,0,0,0.10);
+    }
+    .navbar .navbar-brand{
+        width: 50%;
+    }
+    .navbar .navbar-brand img{
+        width: 100%;
+    }
+    .navbar .navbar-toggler{
+        background: #09c;  
+    }
+    .banner{
+        width: 100%;
+        padding: 0px 0px;
+    }
+    .banner .text{
+        margin-bottom: 20px;
+    }
+    .banner .text h6{
+        font-size: 25px;
+        line-height: 1.000rem;
+        font-weight: 500;
+        color: rgba(0, 0, 128);
+        text-transform: capitalize;
+    }
+    .banner .text h1{
+        font-size: 30px;
+        line-height: 2.100rem;
+        font-weight: 550;
+        text-align: left;
+        text-transform: uppercase;
+        color: rgba(0, 0, 0);
+    }
+    .banner .text h4{
+        font-size: 20px;
+        line-height: 1.52rem;
+        font-weight: 500;
+        color: rgba(0, 0, 0);
+        margin: -10px 0px 0px;
+        text-transform: capitalize;
+    }
+    .banner .text p{
+        font-size: 16px;
+        line-height: 1.425rem;
+        font-weight: 400;
+        color: #800080;
+        margin: 0px 0px 20px;
+    }
+    .banner .text h4 .typing{
+        font-size: 20px;
+        line-height: 2.188rem;
+        font-weight: 600;
+        text-transform: capitalize;
+        color: rgba(0,0,128);
+    }
+    .banner .btn-outline-primary{
+        font-size: 20px;
+        text-transform: capitalize;
+        font-weight: 500;
+        padding: 10px 30px;
+        line-height: 1.700rem;
+        margin-right: 15px;
+        border-radius: 0%;
+        transition: 1s;
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+    }
+    .banner .btn-outline-primary span{
+        background: rgb(0,0,128);
+        position: absolute;
+        height: 100%;
+        width: 0%;
+        left: 0;
+        bottom: 0;
+        z-index: -1;
+        transition: 0.5s;
+    }
+    .banner .btn-outline-primary:hover span{
+        width: 100%;
+    }
+    .banner .btn-outline-primary:hover{
+        outline: none;
+        background: none;
+    }
+    .banner .btn-outline-primary .fa-arrow-right-to-bracket{
+        font-size: 16px;
+        line-height: 1rem;
+        margin: 0px 0px 0px 10px;  
+    }
+    .banner .image img {
+        width: 70%;
+        margin-left: 60px;
+        animation-name: imageUpDown;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        padding: 20px 10px;
+    }
+    .footer{
+        width: 100%;
+    }
+    .footer .social{
+        width: 100%;
+        text-align: center;
+        margin-bottom: -30px;
+    }
+    .footer ul li a{
+        font-size: 20px;
+        line-height: 1rem;
+        font-weight: 500;
+        margin: 0px 10px 0px 0px;
+    }
+    .footer .copyright{
+        width:100%;
+    }
+    .footer .copyright p{
+        font-size: 20px;
+        line-height: 1rem;
+        font-weight: 500;
+        text-transform: capitalize;
+        text-align: center;
+    }
+
+    /*css end */
+    /*==============index.html responsve end===========*/
+    /*==============about.css responsve start===========*/
+    .about{
+        width: 100%;
+        padding: 30px 0px;
+    }
+    .about .te-my{
+        width: 90%;
+    }
+    .about .te-pic{
+        width: 100%;
+        margin: 40px 0px 0px -247px;
+    }
+    .about .te-my h1{
+        font-size: 20px;
+        line-height: 2rem;
+        font-weight: 500;
+        text-transform: capitalize;
+        text-align: left;
+        color: #000;
+        border-bottom: 1px solid rgba(0, 0, 128);
+        border-radius: 5px;
+    }
+    .about .te-my h1 strong{
+        color:rgba(0, 0, 128);
+    }
+    .about .te-my p{
+        font-size: 13px;
+        line-height: 1rem;
+        color: rgba(0, 0, 0);
+        text-align: left;
+        font-weight: 400;
+        padding: 0px 20px;
+    }
+    .about .te-my .btn-outline-primary{
+        font-size: 18px;
+        text-transform: capitalize;
+        font-weight: 500;
+        padding: 5px 30px;
+        line-height: 1.700rem;
+        border: 2px solid rgba(0, 0, 128);
+        transition: 1s;
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+        text-align: left;
+        margin: 0px 0px 0px 20px;
+    }
+    .about .te-my .btn-outline-primary span{
+        background: rgba(0, 0, 128);
+        position: absolute;
+        height: 100%;
+        width: 0%;
+        left: 0;
+        bottom: 0;
+        z-index: -1;
+        transition: 0.5s;
+    }
+    .about .te-my .btn-outline-primary:hover span{
+        width: 100%;
+    }
+    .about .te-my .btn-outline-primary:hover{
+        outline: none;
+        background: none;
+    }
+    .about .te-pic img{
+        width: 70%;
+        margin-left: 300px;
+    }
+    .about .skill h4{
+        font-size: 20px;
+        line-height: 1.625rem;
+        font-weight: 500;
+        text-transform: capitalize;
+        text-align: left;
+        padding: 20px 0px 0px;
+    }
+    .about .sk-3 {
+        text-align: left;
+        padding: 0px 10px;
+    }
+    .about .sk-3 h3{
+        display: inline-block;
+        padding: 5px 30px;
+        background: #E7E7E7;
+        color: #666666;
+        text-transform: uppercase;
+        font-size: 16px;
+        line-height: 1.834rem;
+        margin-top: 10px; 
+        margin-right: 15px;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+    .about .experience h4{
+        font-size: 20px;
+        line-height: 1.625rem;
+        font-weight: 500;
+        text-transform: capitalize;
+        text-align: left;
+        padding: 20px 0px;
+        margin: 0px 0px 0px;
+    }
+    .about .ex-3{
+        padding: 0px 5px;
+    }
+    .about .experience .card{
+        display: flex;
+        padding: 20px;
+        margin: 0px 92px;
+        background: #fff;
+        box-shadow: 0px 12px 28px 0px rgba(0, 0, 0, 0.2), 0px 2px 4px 0px rgba(0, 0, 0, 0.1), 0px 0px 0px 1px rgba(255, 255, 255, 0.05) inset;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+    /*==============about.css responsve end===========*/
+    /*==============project.css responsve start===========*/
+     /*==============project.css responsve start===========*/
+
+     .projects-show{
+        width: 100%;
+        padding: 20px 0px;
+    }
+    .projects-show .project-te h1{
+        font-size: 25px;
+        line-height: 2rem;
+        font-weight: 500;
+        text-transform: capitalize;
+        text-align: left;
+        color: #000;
+        border-bottom: 1px solid rgba(0, 0, 128);
+        border-radius: 5px;
+    }
+    .projects-show .project-te h1 strong{
+        color: rgba(0, 0, 128);
+    }
+    .projects-show .project-te p{
+        font-size: 9px;
+        line-height: 1rem;
+        color: rgba(0, 0, 0);
+        text-align: left;
+        font-weight: 400;
+        padding: 0px 20px;
+    }
+    .container-3{
+        width: 95%;
+        margin: 0px auto;
+        border-radius: 30px;
+        background: #fefefd;
+        border: 0.5px solid #000;
+        box-shadow: 0 0 10px 0 rgba(0,0,0,0.45) inset;
+        padding-top: 0px; 
+    }
+    .project-img img{
+        width: 75%;
+        margin: 20px 0px 30px 60px;
+    }
+    .container-3 .project-text{
+        padding: 20px 0px 10px 27px;
+    }
+    .container-3 .project-text h3{
+        font-size: 13px;
+        line-height: 1.25rem;
+        font-weight: 500;
+        text-transform: capitalize;
+        margin: 25px 0px -10px;
+    }
+    .container-3 .project-text h1{
+        font-size: 17px;
+        line-height: 2.5rem;
+        font-weight: 500;
+        text-transform: capitalize;
+        text-align: left;
+        color: #000;
+        cursor: pointer;
+    }
+    .container-3 .project-text p{
+        font-size: 9px;
+        line-height: 1rem;
+        color: rgba(0, 0, 0);
+        text-align: left;
+        font-weight: 400;
+        margin: -10px 0px 20px;
+    }
+    .container-3 .project-text .btn{
+        font-size: 14px;
+        text-transform: capitalize;
+        font-weight: 600;
+        position: relative;
+        padding: 10px 30px;
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+        outline: none;
+        margin: 10px 0px;
+      }
+      .container-3 .project-text .type3::after,
+      .container-3 .project-text .type3::before{
+            content: '';
+            display: block;
+            position: absolute;
+            width: 20%;
+            height: 40%;
+            border: 2px solid #000;
+            transition: all 0.6s ease;
+            border-radius: 2px;
+      }
+      .container-3 .project-text .type3::after{
+            bottom: 8%;
+            right: 3%;
+            border-top-color: transparent;
+            border-left-color: transparent;
+            border-bottom-color: #09c;
+            border-right-color: #000;
+      }
+      .container-3 .project-text .type3::before{
+            top: 0;
+            left: 0;
+            border-bottom-color: transparent;
+            border-right-color: transparent;
+            border-top-color: #09c;
+            border-left-color: #000;
+      }
+      .container-3 .project-text .type3:hover:after,
+      .container-3 .project-text .type3:hover:before{
+            border-bottom-color: #09c;
+            border-right-color: #000;
+            border-top-color: #09c;
+            border-left-color: #000;
+            width: 100%;
+            height: 100%;
+      }
+ /*==============project.css responsve end===========*/
+
+/*css end */
+ /*==============contact.css responsve start===========*/
+ /*==============contact.css responsve start===========*/
+ .contact{
+    width: 100%;
+    padding: 80px 0px;
+}
+.contact .contact-text h1{
+    font-size: 20px;
+    line-height: 2.5rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    text-align: left;
+    color: #000;
+    border-bottom: 1px solid rgba(0, 0, 128);
+    border-radius: 5px;
+    margin: 0px 0px 20px;
+}
+.contact .contact-text h1 strong{
+    color: rgba(0, 0, 128);
+}
+.contact .contact-text p {
+    font-size: 14px;
+    line-height: 1.2rem;
+    color: rgba(0, 0, 0);
+    text-align: left;
+    font-weight: 400;
+    padding: 0px 20px;
+}
+.container-4{
+    width: 100%;
+    margin: 0px auto;
+    border-radius: 30px;
+    background: #fefefd;
+    margin-bottom: 40px; 
+    padding: 0px 0px;
+}
+.container-4 .card{
+    width: 90%;
+    box-shadow: 0px 12px 28px 0px rgba(140, 149, 159, 0.3);
+    margin: 20px 25px;
+   
+}
+.container-4 .card .fa-house{
+    position: absolute;
+    top: 22px;
+    left: 25px;
+    font-size: 35px;
+    color: rgb(25,25,112);
+    padding: 10px;
+    border: 2px solid transparent;
+    border-radius: 100%;
+    background: rgb(176,224,230);
+}
+.container-4 .card .fa-people-arrows{
+    position: absolute;
+    top: 18px;
+    left: 25px;
+    font-size: 35px;
+    color: rgb(25,25,112);
+    padding: 10px;
+    border: 2px solid transparent;
+    border-radius: 100%;
+    background: rgb(176,224,230);
+}
+.container-4 .card .fa-envelope{
+    position: absolute;
+    top: 18px;
+    left: 25px;
+    font-size: 35px;
+    color: rgb(25,25,112);
+    padding: 10px;
+    border: 2px solid transparent;
+    border-radius: 100%;
+    background: rgb(176,224,230);
+}
+.container-4 .card .fa-phone{
+    position: absolute;
+    top: 18px;
+    left: 25px;
+    font-size: 35px;
+    color: rgb(25,25,112);
+    padding: 10px;
+    border: 2px solid transparent;
+    border-radius: 100%;
+    background: rgb(176,224,230);
+}
+.container-4 .card .card-body{
+    margin: 10px 10px 10px;
+}
+.container-4 .card .card-body .card-title{
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 1.75rem;
+    text-align: left;
+    margin: 5px 65px 0px;
+}
+.container-4 .card .card-body .card-text{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.25rem;
+    text-align: left;
+    margin: -7px 0px 0px 64px;
+}
+.container-4 .card .card-body ul{
+    margin: -7px 0px 0px 28px;
+}
+.container-4 .card .card-body ul li{
+   list-style: none;
+   display: inline-block;
+}
+.container-4 .card .card-body ul li a{ 
+   font-size: 15px;
+   line-height: 1rem;
+   margin: 0px 0px 0px 5px;
+ }
+ .container-4 .card .card-body ul li a:hover{ 
+   color: rgba(255,0,0);
+  }
+
+/*==============contact.css responsve end===========*/
+
+
+/*css end */
+
+
+
+}
+@media (min-width: 768px) and (max-width: 1024px){
+    /*==============index.html responsve start===========*/
+  
+    /*css start */
+    .container{
+        width: 100%;
+      }
+      .header{
+        width: 100%;
+        background: #fff;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.10), 0 3px 6px rgba(0,0,0,0.10);
+    }
+    .navbar .navbar-brand{
+        width: 50%;
+    }
+    .navbar .navbar-brand img{
+        width: 100%;
+    }
+    .navbar .navbar-toggler{
+        background: #09c;  
+    }
+    .banner{
+        width: 100%;
+        padding: 80px 0px;
+    }
+    .banner .text{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .banner .text h6{
+        font-size: 30px;
+        line-height: 1.200rem;
+        font-weight: 500;
+        color: rgba(0, 0, 128);
+        text-transform: capitalize;
+    }
+    .banner .text h1{
+        font-size: 40px;
+        line-height: 2.100rem;
+        font-weight: 550;
+        text-align: left;
+        text-transform: uppercase;
+        color: rgba(0, 0, 0);
+    }
+    .banner .text h4{
+        font-size: 28px;
+        line-height: 1.52rem;
+        font-weight: 500;
+        color: rgba(0, 0, 0);
+        margin: 0px 0px 15px;
+        text-transform: capitalize;
+    }
+    .banner .text p{
+        font-size: 25px;
+        line-height: 1.825rem;
+        font-weight: 400;
+        color: #800080;
+        margin: 0px 0px 40px;
+    }
+    .banner .text h4 .typing{
+        font-size: 28px;
+        line-height: 2.188rem;
+        font-weight: 600;
+        text-transform: capitalize;
+        color: rgba(0,0,128);
+    }
+    .banner .btn-outline-primary{
+        font-size: 30px;
+        text-transform: capitalize;
+        font-weight: 500;
+        padding: 15px 40px;
+        line-height: 1.700rem;
+        margin-right: 15px;
+        border-radius: 0%;
+        transition: 1s;
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+    }
+    .banner .btn-outline-primary span{
+        background: rgb(0,0,128);
+        position: absolute;
+        height: 100%;
+        width: 0%;
+        left: 0;
+        bottom: 0;
+        z-index: -1;
+        transition: 0.5s;
+    }
+    .banner .btn-outline-primary:hover span{
+        width: 100%;
+    }
+    .banner .btn-outline-primary:hover{
+        outline: none;
+        background: none;
+    }
+    .banner .btn-outline-primary .fa-arrow-right-to-bracket{
+        font-size: 30px;
+        line-height: 1rem;
+        margin: 0px 0px 0px 10px;  
+    }
+    .banner .image{
+        width: 100%;
+    }
+    .banner .image img {
+        width: 75%;
+        margin-top: 125px;
+        margin-left: 90px;
+        animation-name: imageUpDown;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+
+    }
+    .footer{
+        width: 100%;
+    }
+    .footer .social{
+        width: 100%;
+        text-align: center;
+        margin-bottom: -15px;
+    }
+    .footer ul li a{
+        font-size: 35px;
+        line-height: 1rem;
+        font-weight: 500;
+        margin: 0px 10px 0px 0px;
+    }
+    .footer .copyright{
+        width:100%;
+    }
+    .footer .copyright p{   
+        font-size: 25px;
+        line-height: 1rem;
+        font-weight: 500;
+        text-transform: capitalize;
+        text-align: center;
+    }   
+    /*css end */
+    /*==============index.html responsve end===========*/
+    /*==============about.css responsve start===========*/
+    .about{
+        width: 100%;
+        padding: 30px 0px;
+    }
+    .about .te-my{
+        width: 90%;
+    }
+    .about .te-pic{
+        width: 100%;
+        margin: 40px 0px 0px -247px;
+    }
+    .about .te-my h1{
+        font-size: 30px;
+        line-height: 2rem;
+        font-weight: 500;
+        text-transform: capitalize;
+        text-align: left;
+        color: #000;
+        border-bottom: 1px solid rgba(0, 0, 128);
+        border-radius: 5px;
+    }
+    .about .te-my h1 strong{
+        color:rgba(0, 0, 128);
+    }
+    .about .te-my p{
+        font-size: 18px;
+        line-height: 1.5rem;
+        color: rgba(0, 0, 0);
+        text-align: left;
+        font-weight: 400;
+        padding: 0px 20px;
+    }
+    .about .te-my .btn-outline-primary{
+        font-size: 18px;
+        text-transform: capitalize;
+        font-weight: 500;
+        padding: 5px 30px;
+        line-height: 1.700rem;
+        border: 2px solid rgba(0, 0, 128);
+        transition: 1s;
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+        text-align: left;
+        margin: 0px 0px 0px 20px;
+    }
+    .about .te-my .btn-outline-primary span{
+        background: rgba(0, 0, 128);
+        position: absolute;
+        height: 100%;
+        width: 0%;
+        left: 0;
+        bottom: 0;
+        z-index: -1;
+        transition: 0.5s;
+    }
+    .about .te-my .btn-outline-primary:hover span{
+        width: 100%;
+    }
+    .about .te-my .btn-outline-primary:hover{
+        outline: none;
+        background: none;
+    }
+    .about .te-pic img{
+        width: 70%;
+        margin-left: 320px;
+    }
+    .about .skill h4{
+        font-size: 30px;
+        line-height: 1.625rem;
+        font-weight: 500;
+        text-transform: capitalize;
+        text-align: left;
+        padding: 20px 0px 0px;
+    }
+    .about .sk-3 {
+        text-align: left;
+        padding: 0px 10px;
+    }
+    .about .sk-3 h3{
+        display: inline-block;
+        padding: 5px 30px;
+        background: #E7E7E7;
+        color: #666666;
+        text-transform: uppercase;
+        font-size: 16px;
+        line-height: 1.834rem;
+        margin-top: 10px; 
+        margin-right: 15px;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+    .about .experience h4{
+        font-size: 30px;
+        line-height: 1.625rem;
+        font-weight: 500;
+        text-transform: capitalize;
+        text-align: left;
+        padding: 20px 0px;
+        margin: 0px 0px 0px;
+    }
+    .about .ex-3{
+        padding: 0px 5px;
+    }
+    .about .experience .card{
+        display: flex;
+        padding: 20px;
+        background: #fff;
+        box-shadow: 0px 12px 28px 0px rgba(0, 0, 0, 0.2), 0px 2px 4px 0px rgba(0, 0, 0, 0.1), 0px 0px 0px 1px rgba(255, 255, 255, 0.05) inset;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+
+    /*==============about.css responsve end===========*/
+     /*==============project.css responsve start===========*/
+
+     .projects-show{
+        width: 100%;
+        padding: 20px 0px;
+    }
+    .projects-show .project-te h1{
+        font-size: 32px;
+        line-height: 2.5rem;
+        font-weight: 500;
+        text-transform: capitalize;
+        text-align: left;
+        color: #000;
+        border-bottom: 1px solid rgba(0, 0, 128);
+        border-radius: 5px;
+    }
+    .projects-show .project-te h1 strong{
+        color: rgba(0, 0, 128);
+    }
+    .projects-show .project-te p{
+        font-size: 16px;
+        line-height: 1rem;
+        color: rgba(0, 0, 0);
+        text-align: left;
+        font-weight: 400;
+        padding: 0px 20px;
+    }
+    .container-3{
+        width: 95%;
+        margin: 0px auto;
+        border-radius: 30px;
+        background: #fefefd;
+        border: 0.5px solid #000;
+        box-shadow: 0 0 10px 0 rgba(0,0,0,0.45) inset;
+        padding-top: 0px; 
+    }
+    .project-img img{
+        width: 75%;
+        margin: 65px 0px 32px 25px;
+    }
+    .container-3 .project-text{
+        padding: 20px 0px 10px 27px;
+    }
+    .container-3 .project-text h3{
+        font-size: 13px;
+        line-height: 1.25rem;
+        font-weight: 500;
+        text-transform: capitalize;
+        margin: 25px 0px -10px;
+    }
+    .container-3 .project-text h1{
+        font-size: 25px;
+        line-height: 2.5rem;
+        font-weight: 500;
+        text-transform: capitalize;
+        text-align: left;
+        color: #000;
+        cursor: pointer;
+    }
+    .container-3 .project-text p{
+        font-size: 10px;
+        line-height: 1rem;
+        color: rgba(0, 0, 0);
+        text-align: left;
+        font-weight: 400;
+        margin: -10px 0px 20px;
+    }
+    .container-3 .project-text .btn{
+        font-size: 14px;
+        text-transform: capitalize;
+        font-weight: 600;
+        position: relative;
+        padding: 10px 30px;
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+        outline: none;
+        margin: 10px 0px;
+      }
+      .container-3 .project-text .type3::after,
+      .container-3 .project-text .type3::before{
+        content: '';
+        display: block;
+        position: absolute;
+        width: 20%;
+        height: 40%;
+        border: 2px solid #000;
+        transition: all 0.6s ease;
+        border-radius: 2px;
+      }
+      .container-3 .project-text .type3::after{
+        bottom: 8%;
+        right: 3%;
+        border-top-color: transparent;
+        border-left-color: transparent;
+        border-bottom-color: #09c;
+        border-right-color: #000;
+      }
+      .container-3 .project-text .type3::before{
+        top: 0;
+        left: 0;
+        border-bottom-color: transparent;
+        border-right-color: transparent;
+        border-top-color: #09c;
+        border-left-color: #000;
+      }
+      .container-3 .project-text .type3:hover:after,
+      .container-3 .project-text .type3:hover:before{
+        border-bottom-color: #09c;
+        border-right-color: #000;
+        border-top-color: #09c;
+        border-left-color: #000;
+        width: 100%;
+        height: 100%;
+      }
+ /*==============contact.css responsve start===========*/
+ /*==============contact.css responsve start===========*/
+ .contact{
+    width: 100%;
+    padding: 80px 0px;
+}
+.contact .contact-text h1{
+    font-size: 25px;
+    line-height: 2.5rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    text-align: left;
+    color: #000;
+    border-bottom: 1px solid rgba(0, 0, 128);
+    border-radius: 5px;
+    margin: 0px 0px 20px;
+}
+.contact .contact-text h1 strong{
+    color: rgba(0, 0, 128);
+}
+.contact .contact-text p {
+    font-size: 23px;
+    line-height: 2rem;
+    color: rgba(0, 0, 0);
+    text-align: left;
+    font-weight: 400;
+    padding: 0px 20px;
+}
+.container-4{
+    width: 100%;
+    margin: 10px auto;
+    border-radius: 30px;
+    background: #fefefd;
+    margin-bottom: 40px;
+    padding: 20px 0px;
+}
+.container-4 .card{
+    width: 92%;
+    box-shadow: 0px 12px 28px 0px rgba(140, 149, 159, 0.3);
+    margin: 20px 25px;
+   
+}
+.container-4 .card .fa-house{
+    position: absolute;
+    top: 14px;
+    left: 30px;
+    font-size: 45px;
+    color: rgb(25,25,112);
+    padding: 10px;
+    border: 2px solid transparent;
+    border-radius: 100%;
+    background: rgb(176,224,230);
+}
+.container-4 .card .fa-people-arrows{
+    position: absolute;
+    top: 14px;
+    left: 30px;
+    font-size: 45px;
+    color: rgb(25,25,112);
+    padding: 10px;
+    border: 2px solid transparent;
+    border-radius: 100%;
+    background: rgb(176,224,230);
+}
+.container-4 .card .fa-envelope{
+    position: absolute;
+    top: 14px;
+    left: 30px;
+    font-size: 45px;
+    color: rgb(25,25,112);
+    padding: 10px;
+    border: 2px solid transparent;
+    border-radius: 100%;
+    background: rgb(176,224,230);
+}
+.container-4 .card .fa-phone{
+    position: absolute;
+    top: 14px;
+    left: 30px;
+    font-size: 45px;
+    color: rgb(25,25,112);
+    padding: 10px;
+    border: 2px solid transparent;
+    border-radius: 100%;
+    background: rgb(176,224,230);
+}
+.container-4 .card .card-body{
+    margin: 10px 10px 10px;
+}
+.container-4 .card .card-body .card-title{
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 1.25rem;
+    text-align: left;
+    margin: 0px 0px 0px 78px;
+}
+.container-4 .card .card-body .card-text{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.25rem;
+    text-align: left;
+    margin: 0px 0px 0px 78px;
+}
+.container-4 .card .card-body ul{
+    margin: 10px 0px 0px 41px;
+}
+.container-4 .card .card-body ul li{
+   list-style: none;
+   display: inline-block;
+}
+.container-4 .card .card-body ul li a{ 
+   font-size: 20px;
+   line-height: 1rem;
+   margin: 0px 0px 0px 5px;
+ }
+ .container-4 .card .card-body ul li a:hover{ 
+   color: rgba(255,0,0);
+  }
+
+/*==============contact.css responsve end===========*/
+
+
+/*css end */
+
+
+/*css end */
+
+
+    
+}

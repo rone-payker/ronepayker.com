@@ -1,0 +1,117 @@
+.contact{
+    width: 100%;
+    padding: 80px 0px;
+}
+.contact .contact-text h1{
+    font-size: 30px;
+    line-height: 2.5rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    text-align: left;
+    color: #000;
+    border-bottom: 1px solid rgba(0, 0, 128);
+    border-radius: 5px;
+    margin: 0px 0px 20px;
+}
+.contact .contact-text h1 strong{
+    color: rgba(0, 0, 128);
+}
+.contact .contact-text p{
+    font-size: 18px;
+    line-height: 1.560rem;
+    color: rgba(0, 0, 0);
+    text-align: left;
+    font-weight: 400;
+    padding: 0px 20px;
+}
+.container-4{
+    width: 1300px;
+    margin: 0px auto;
+    border-radius: 30px;
+    background: #fefefd;
+    margin-bottom: 40px; 
+}
+.container-4 .card{
+    width: 35rem;
+    box-shadow: 0px 12px 28px 0px rgba(140, 149, 159, 0.3);
+    margin: 20px 25px;
+}
+.container-4 .card .fa-house{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    font-size: 35px;
+    color: rgb(25,25,112);
+    padding: 10px;
+    border: 2px solid transparent;
+    border-radius: 100%;
+    background: rgb(176,224,230);
+}
+.container-4 .card .fa-people-arrows{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    font-size: 35px;
+    color: rgb(25,25,112);
+    padding: 10px;
+    border: 2px solid transparent;
+    border-radius: 100%;
+    background: rgb(176,224,230);
+}
+.container-4 .card .fa-envelope{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    font-size: 35px;
+    color: rgb(25,25,112);
+    padding: 10px;
+    border: 2px solid transparent;
+    border-radius: 100%;
+    background: rgb(176,224,230);
+}
+.container-4 .card .fa-phone{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    font-size: 35px;
+    color: rgb(25,25,112);
+    padding: 10px;
+    border: 2px solid transparent;
+    border-radius: 100%;
+    background: rgb(176,224,230);
+}
+.container-4 .card .card-body{
+    margin: 10px 67px 20px;
+}
+.container-4 .card .card-body .card-title{
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 1.75rem;
+    text-align: left;
+    margin: 5px 20px 0px;
+}
+.container-4 .card .card-body .card-text{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.25rem;
+    text-align: left;
+    margin: 5px 20px 0px;
+}
+.container-4 .card .card-body ul{
+   margin: 0px 0px 0px -20px;
+}
+.container-4 .card .card-body ul li{
+   list-style: none;
+   display: inline-block;
+}
+.container-4 .card .card-body ul li a{ 
+   font-size: 25px;
+   line-height: 1.725rem;
+   margin: 0px 0px 0px 10px;
+ }
+ .container-4 .card .card-body ul li a:hover{ 
+   color: rgba(255,0,0);
+  }
+  
+ 

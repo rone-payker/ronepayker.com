@@ -1,0 +1,211 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.body{
+    font-size: 16px;
+    line-height: 1.625rem;
+    font-family: "Poppins", sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: "Montserrat", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+/* header start */
+.header{
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.10), 0 3px 6px rgba(0,0,0,0.10);
+}
+.navbar .navbar-brand img{
+    width: 65%;
+}
+.navbar .nav-item .nav-link{
+    font-size: 18px;
+    line-height: 1.25rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: rgba(0, 0, 128);
+    margin: 0px 0px 0px 11px;
+}
+.navbar .nav-item .nav-link:hover{
+    color: rgb(43, 43, 239);
+}
+/* header end */
+
+/* banner section start */
+.banner{
+    width: 100%;
+    padding: 95px 0px;
+}
+.banner .text{
+    margin-top: 100px;
+}
+.banner .text h6{
+    font-size: 25px;
+    line-height: 1.000rem;
+    font-weight: 500;
+    color: rgba(0, 0, 128);
+    text-transform: capitalize;
+}
+.banner .text h1{
+    font-size: 35px;
+    line-height: 2.100rem;
+    font-weight: 550;
+    text-align: left;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0);
+}
+.banner .text h4{
+    font-size: 23px;
+    line-height: 1.563rem;
+    font-weight: 500;
+    color: rgba(0, 0, 0);
+    text-transform: capitalize;
+    margin: -10px 0px 10px;
+}
+.banner .text p{
+    font-size: 18px;
+    line-height: 1.560rem;
+    color: rgba(0, 0, 0);
+    text-align: left;
+    font-weight: 400;
+    margin: 0px 0px 30px;
+}
+.banner .text h4 .typing{
+    font-size: 25px;
+    line-height: 2.188rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: rgba(0,0,128);
+}
+.banner .btn-outline-primary{
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 500;
+    padding: 10px 30px;
+    line-height: 1.700rem;
+    margin-right: 15px;
+    border-radius: 0%;
+    transition: 1s;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+.banner .btn-outline-primary span{
+    background: rgb(0,0,128);
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+.banner .btn-outline-primary:hover span{
+    width: 100%;
+}
+.banner .btn-outline-primary:hover{
+    outline: none;
+    background: none;
+}
+.banner .btn-outline-primary .fa-arrow-right-to-bracket{
+    font-size: 16px;
+    line-height: 1rem;
+    margin: 0px 0px 0px 10px;  
+}
+.banner .image img{
+    width: 66%;
+    margin-left: 30%;
+    animation-name: imageUpDown;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes imageUpDown{
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-20px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+/* footer start */
+.footer{
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,10);
+}
+.footer ul {
+    list-style: none;
+}
+.footer ul li{
+    display: inline-block;
+    margin-top: 20px;
+}
+.footer ul li a{
+    font-size: 26px;
+    line-height: 1rem;
+    font-weight: 500;
+    margin: 0px 10px 0px 0px;
+}
+.footer ul li a .fa-square-whatsapp:hover{
+    color:#000;
+}
+.footer ul li a .fa-linkedin:hover{
+    color:#000;
+}
+.footer ul li a .fa-facebook:hover{
+    color:#000;
+}
+.footer ul li a .fa-square-instagram:hover{
+    color:#000;
+}
+.footer .copyright p{
+    font-size: 16px;
+    line-height: 1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-top: 25px;
+    text-align: right;
+}
+/* footer end */
+
+
+/*=============about.css start=============*/
+/* header start */
+.header{
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.10), 0 3px 6px rgba(0,0,0,0.10); 
+}
+.navbar .navbar-brand{
+    font-size: 30px;
+    line-height: 1.563rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: rgb(0,0,128);
+}
+.navbar .navbar-brand:hover{
+    color: rgb(0,0,128);
+}
+.navbar .nav-item .nav-link{
+    font-size: 18px;
+    line-height: 1.25rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: rgba(0, 0, 128);
+    margin: 0px 0px 0px 11px;
+}
+/* header end */
+
+/*=============about.css end=============*/
+
