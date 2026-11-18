@@ -528,6 +528,7 @@
     padding-bottom: 6px !important;
     -webkit-overflow-scrolling: touch;
     scrollbar-width: none;
+    justify-content: flex-start !important;
   }
 
   .filters::-webkit-scrollbar,
@@ -917,6 +918,7 @@
     padding-bottom: 6px !important;
     -webkit-overflow-scrolling: touch;
     scrollbar-width: none;
+    justify-content: flex-start !important;
   }
 
   .filters::-webkit-scrollbar,
@@ -1478,7 +1480,9 @@
     padding-bottom: 6px !important;
     -webkit-overflow-scrolling: touch;
     scrollbar-width: none;
+    justify-content: flex-start !important;
   }
+  
 
   .filters::-webkit-scrollbar,
   .funnel-filter-pills::-webkit-scrollbar {
