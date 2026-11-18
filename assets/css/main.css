@@ -1349,3 +1349,27 @@ section,
     box-sizing: border-box;
   }
 }
+
+/* Make Case Studies filter pills align left & scroll smoothly on mobile like Funnel pills */
+@media (max-width: 768px) {
+  .cs-section .filters {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    justify-content: flex-start !important;
+    overflow-x: auto !important;
+    -webkit-overflow-scrolling: touch;
+    gap: 10px;
+    padding: 4px 16px 12px 16px !important;
+    width: 100%;
+    scrollbar-width: none; /* Firefox scrollbar hide */
+  }
+
+  .cs-section .filters::-webkit-scrollbar {
+    display: none; /* Chrome/Safari scrollbar hide */
+  }
+
+  .cs-section .filters .pill {
+    flex: 0 0 auto !important;
+    white-space: nowrap !important;
+  }
+}
