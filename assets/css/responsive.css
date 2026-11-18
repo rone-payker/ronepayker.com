@@ -791,11 +791,12 @@
   }
 
   .hero-trust-badge {
-    font-size: 11.5px !important;
+    font-size: 6.5px !important;
     line-height: 1.45 !important;
     padding: 6px 12px !important;
     margin-bottom: 14px !important;
     max-width: 100%;
+    margin-top: 20px;
   }
 
   .banner .text h1.hero-title {
