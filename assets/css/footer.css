@@ -1,0 +1,220 @@
+/* --- Contact & Footer Section CSS --- */
+.contact-footer-section {
+  background: linear-gradient(180deg, #0e061a 0%, #080310 100%) !important;
+  color: #ffffff;
+  font-family: var(--default-font) !important;
+  padding: 84px 0 36px !important;
+  border-top: 1px solid rgba(168, 230, 74, 0.18);
+}
+
+.contact-footer-section .container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* CTA Top Grid Layout */
+.cta-grid {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 48px;
+  align-items: center;
+  background: linear-gradient(145deg, rgba(35, 17, 61, 0.65), rgba(18, 8, 34, 0.9));
+  border: 1px solid rgba(168, 230, 74, 0.25);
+  border-radius: 24px;
+  padding: 44px;
+  margin-bottom: 64px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4);
+}
+
+.section-tag {
+  display: inline-block;
+  background-color: rgba(168, 230, 74, 0.14);
+  border: 1px solid rgba(168, 230, 74, 0.35);
+  color: #a8e64a;
+  padding: 6px 14px;
+  font-size: 11.5px;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+  border-radius: 999px;
+  margin-bottom: 18px;
+}
+
+.cta-title {
+  font-family: var(--heading-font) !important;
+  font-size: clamp(28px, 3.8vw, 42px);
+  font-weight: 800;
+  line-height: 1.16;
+  color: #ffffff;
+  margin: 0;
+}
+
+.cta-title .highlight {
+  color: #a8e64a;
+  font-style: normal;
+  font-weight: 800;
+}
+
+.cta-desc {
+  color: #cbd5e1;
+  font-size: 16px;
+  line-height: 1.68;
+  margin-bottom: 24px;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  margin-bottom: 18px;
+  flex-wrap: wrap;
+}
+
+.btn-primary {
+  font-family: var(--button-font) !important;
+  background-color: #a8e64a;
+  color: #11071f !important;
+  padding: 14px 26px;
+  font-weight: 700;
+  font-size: 14.5px;
+  border-radius: 999px;
+  border: 2px solid #a8e64a;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  text-decoration: none;
+  transition: all 0.25s ease;
+  box-shadow: 0 8px 24px rgba(168, 230, 74, 0.25);
+}
+
+.btn-primary:hover {
+  background-color: transparent;
+  color: #a8e64a !important;
+  transform: translateY(-2px);
+}
+
+.btn-secondary {
+  font-family: var(--button-font) !important;
+  background: rgba(255, 255, 255, 0.05);
+  color: #ffffff !important;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  padding: 14px 26px;
+  font-weight: 600;
+  font-size: 14.5px;
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: all 0.25s ease;
+}
+
+.btn-secondary:hover {
+  border-color: #a8e64a;
+  color: #a8e64a !important;
+  background: rgba(168, 230, 74, 0.08);
+}
+
+.cta-note {
+  font-size: 14px;
+  color: #cbd5e1;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Footer Main Links Grid (3 Columns: Brand, Navigation, Contact) */
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1.2fr;
+  gap: 48px;
+  padding-bottom: 48px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.747);
+}
+
+.footer-logo {
+  font-family: var(--heading-font) !important;
+  font-size: 26px;
+  font-weight: 800;
+  color: #ffffff;
+  margin: 0 0 14px 0;
+}
+
+.footer-logo span {
+  color: #a8e64a;
+}
+
+.footer-brand-desc {
+  color: #94a3b8;
+  font-size: 14.5px;
+  line-height: 1.65;
+  margin: 0;
+  max-width: 420px;
+}
+
+.footer-col h4 {
+  font-family: var(--heading-font) !important;
+  font-size: 12.5px;
+  letter-spacing: 1.4px;
+  color: #ffffff;
+  margin-bottom: 18px;
+  font-weight: 700;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-col ul li {
+  margin-bottom: 11px;
+}
+
+.footer-col ul li a {
+  color: #94a3b8;
+  text-decoration: none;
+  font-size: 14.5px;
+  transition: color 0.2s;
+}
+
+.footer-col ul li a:hover {
+  color: #a8e64a;
+}
+
+.footer-address {
+  color: #94a3b8;
+  font-size: 14.5px;
+  line-height: 1.6;
+  margin: 0 0 14px 0;
+}
+
+.footer-email {
+  color: #a8e64a;
+  text-decoration: none;
+  font-size: 14.5px;
+  font-weight: 600;
+  word-break: break-all;
+}
+
+.footer-email:hover {
+  text-decoration: underline;
+}
+
+/* Footer Bottom Bar - Centered Copyright Text */
+.footer-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 28px;
+  font-size: 14px;
+  color: #94a3b8;
+}
+
+.footer-bottom p {
+  margin: 0;
+  text-align: center;
+  width: 100%;
+}

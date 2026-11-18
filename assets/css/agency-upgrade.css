@@ -1,0 +1,1303 @@
+/**
+* Template Name: RonePayker - Agency Upgrade Stylesheet (Infinix Online Inspired)
+* Author: Md. Rone Payker
+* Description: Unified Typography (Montserrat/Poppins/Roboto), Dark/Plum/Lime UI/UX Color Palette, Header, Mobile Drawer Menu, Hero, Case Studies, Portfolio Cards, Landing Page Funnel Section, Tech Stack.
+*/
+
+:root {
+  /* 1. Google Fonts System: Headline + Body + Button Text */
+  --heading-font: "Montserrat", "Poppins", "Roboto", sans-serif;
+  --default-font: "Roboto", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --button-font: "Poppins", "Roboto", sans-serif;
+  --nav-font: "Poppins", "Roboto", sans-serif;
+
+  /* 2. Unified UI/UX Brand & Surface Color System */
+  --rp-bg-deep: #0b0514;
+  --rp-bg-primary: #11071f;
+  --rp-bg-alt: #160a28;
+  --rp-bg-elevated: #1d0e34;
+  --rp-card-bg: #1a0c2e;
+  --rp-card-hover: #23113d;
+  --rp-purple: #3c1d4e;
+  --rp-purple-mid: #4d2761;
+  --rp-lime: #a8e64a;
+  --rp-lime-bright: #8cff00;
+  --rp-lime-soft: rgba(168, 230, 74, 0.14);
+  --rp-blue: #38bdf8;
+  --rp-amber: #fbbf24;
+  --rp-text-white: #ffffff;
+  --rp-text-light: #f8fafc;
+  --rp-text-body: #cbd5e1;
+  --rp-text-muted: #94a3b8;
+  --rp-border-subtle: rgba(255, 255, 255, 0.09);
+  --rp-border-lime: rgba(168, 230, 74, 0.28);
+
+  /* Override base main.css variables for cohesive dark UI/UX */
+  --background-color: #0e061a;
+  --default-color: #cbd5e1;
+  --heading-color: #ffffff;
+  --accent-color: #a8e64a;
+  --surface-color: #1a0c2e;
+  --contrast-color: #0e061a;
+}
+
+/* Global Box Sizing, Overflow & Typography Rules */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  overflow-x: clip;
+  max-width: 100%;
+  background-color: var(--rp-bg-primary) !important;
+  color: var(--rp-text-body) !important;
+  font-family: var(--default-font) !important;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 1. Headline Typography (Montserrat + Poppins + Roboto) */
+h1, h2, h3, h4, h5, h6,
+.hero-title,
+.sitename,
+.cs h2,
+.creatives h2,
+.funnel-section h2,
+.funnel-card h3,
+.funnel-step-box h4,
+.reviews h2,
+.about-heading,
+.tech-stack-title,
+.cta-title,
+.footer-logo,
+.score {
+  font-family: var(--heading-font) !important;
+  color: var(--rp-text-white);
+  letter-spacing: -0.02em;
+}
+
+/* 2. Body Text Typography (Roboto) */
+body, p, li, blockquote, figcaption, small, .hero-desc, .sub, .about-text, .cta-desc, .footer-brand-desc, .footer-address {
+  font-family: var(--default-font) !important;
+}
+
+/* 3. Button, Pill & Badge Typography (Poppins + Roboto) */
+button,
+.btn,
+.btn-primary,
+.btn-secondary,
+.btn-agency-primary,
+.btn-agency-secondary,
+.header-cta-btn,
+.mobile-nav-toggle,
+.pill,
+.funnel-pill,
+.funnel-action-link,
+.funnel-cvr-badge,
+.funnel-niche-tag,
+.funnel-step-num,
+.trust-pill,
+.portfolio-badge,
+.portfolio-metric-pill,
+.portfolio-zoom-btn,
+.eyebrow,
+.section-tag,
+.about-eyebrow-badge,
+.hero-trust-badge,
+.navmenu a {
+  font-family: var(--button-font) !important;
+}
+
+.accent-lime {
+  color: var(--rp-lime) !important;
+}
+
+/*--------------------------------------------------------------
+# Upgraded Sticky Agency Header & Mobile Navigation Drawer
+--------------------------------------------------------------*/
+.header {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  width: 100% !important;
+  background: rgba(14, 6, 26, 0.78) !important;
+  backdrop-filter: blur(18px) saturate(160%) !important;
+  -webkit-backdrop-filter: blur(18px) saturate(160%) !important;
+  border-bottom: 1px solid rgba(168, 230, 74, 0.24);
+  padding: 14px 0 !important;
+  transition: all 0.3s ease;
+  z-index: 9990 !important;
+}
+
+.scrolled .header {
+  padding: 11px 0 !important;
+  background: rgba(11, 5, 20, 0.88) !important;
+  box-shadow: 0 12px 34px rgba(0, 0, 0, 0.55) !important;
+}
+
+.header .logo {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.header .logo h1.sitename {
+  font-size: 28px !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.5px !important;
+  margin: 0 !important;
+  color: #ffffff !important;
+  line-height: 1.1;
+}
+
+.header .logo h1.sitename span {
+  color: var(--rp-lime) !important;
+}
+
+.navmenu > ul > li {
+  padding: 10px 13px !important;
+}
+
+.navmenu a,
+.navmenu a:focus {
+  font-size: 15px !important;
+  font-weight: 600 !important;
+  color: #e2e8f0 !important;
+  letter-spacing: 0.2px;
+}
+
+.navmenu a:hover,
+.navmenu .active,
+.navmenu .active:focus {
+  color: var(--rp-lime) !important;
+}
+
+.navmenu > ul > li > a:before {
+  background-color: var(--rp-lime) !important;
+  height: 2px !important;
+  bottom: -4px !important;
+}
+
+.header-cta-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--rp-lime);
+  color: #11071f !important;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 10px 22px;
+  border-radius: 999px;
+  border: 2px solid var(--rp-lime);
+  transition: all 0.25s ease;
+  white-space: nowrap;
+  text-decoration: none;
+  box-shadow: 0 4px 18px rgba(168, 230, 74, 0.28);
+}
+
+.header-cta-btn:hover {
+  background: transparent;
+  color: var(--rp-lime) !important;
+  transform: translateY(-2px);
+}
+
+/* Dedicated Mobile Menu Button */
+.mobile-nav-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  background: rgba(168, 230, 74, 0.14);
+  border: 1.5px solid rgba(168, 230, 74, 0.45);
+  color: var(--rp-lime) !important;
+  padding: 8px 14px;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  line-height: 1;
+}
+
+.mobile-nav-toggle i {
+  font-size: 22px;
+  line-height: 1;
+  color: var(--rp-lime);
+}
+
+.mobile-nav-toggle:hover,
+.mobile-nav-toggle:focus-visible {
+  background: var(--rp-lime);
+  color: #11071f !important;
+  outline: none;
+}
+
+.mobile-nav-toggle:hover i,
+.mobile-nav-toggle:focus-visible i {
+  color: #11071f !important;
+}
+
+.mobile-nav-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(7, 3, 14, 0.78);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  z-index: 1000;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.mobile-nav-active .mobile-nav-backdrop {
+  opacity: 1;
+  visibility: visible;
+}
+
+@media (min-width: 1200px) {
+  .navmenu .mobile-cta-item,
+  .mobile-menu-header,
+  .mobile-nav-toggle,
+  .mobile-nav-backdrop {
+    display: none !important;
+  }
+}
+
+/*--------------------------------------------------------------
+# Redesigned Agency Hero Section (#banner)
+--------------------------------------------------------------*/
+.banner {
+  position: relative;
+  background:
+    radial-gradient(circle at 85% 20%, rgba(168, 230, 74, 0.16), transparent 42%),
+    radial-gradient(circle at 12% 80%, rgba(124, 58, 237, 0.18), transparent 45%),
+    linear-gradient(135deg, #0b0514 0%, #1a0b2e 55%, #11071f 100%) !important;
+  color: #ffffff;
+  padding: 136px 0 68px;
+   margin: 0px 0 0px;
+  overflow: hidden;
+  border-bottom: 1px solid var(--rp-border-subtle);
+}
+
+.banner .text {
+  margin-top: 0 !important;
+}
+
+.hero-trust-badge {
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  background: var(--rp-lime-soft);
+  border: 1px solid rgba(168, 230, 74, 0.38);
+  color: var(--rp-lime);
+  font-size: 13px;
+  font-weight: 600;
+  padding: 7px 16px;
+  border-radius: 999px;
+  margin-bottom: 0px;
+  letter-spacing: 0.3px;
+}
+
+.hero-trust-badge .stars {
+  color: var(--rp-amber);
+  letter-spacing: 1px;
+}
+
+.banner .text h1.hero-title {
+  font-size: clamp(30px, 4vw, 48px) !important;
+  line-height: 1.16 !important;
+  font-weight: 800 !important;
+  color: #ffffff !important;
+  text-transform: none !important;
+  margin: 0 0 18px 0 !important;
+  letter-spacing: -0.02em;
+}
+
+.banner .text h1.hero-title .accent-lime {
+  color: var(--rp-lime);
+}
+
+.banner .text p.hero-desc {
+  font-size: 17px !important;
+  line-height: 1.7 !important;
+  color: var(--rp-text-body) !important;
+  margin: 0 0 28px 0 !important;
+  max-width: 620px;
+}
+
+/* Hero Action Buttons */
+.hero-cta-group {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 0;
+}
+
+.btn-agency-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: var(--rp-lime);
+  color: #11071f !important;
+  font-weight: 700;
+  font-size: 15px;
+  padding: 14px 28px;
+  border-radius: 999px;
+  border: 2px solid var(--rp-lime);
+  text-decoration: none;
+  transition: all 0.25s ease;
+  box-shadow: 0 8px 24px rgba(168, 230, 74, 0.28);
+}
+
+.btn-agency-primary:hover {
+  background: transparent;
+  color: var(--rp-lime) !important;
+  transform: translateY(-2px);
+}
+
+.btn-agency-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: rgba(255, 255, 255, 0.06);
+  color: #ffffff !important;
+  font-weight: 600;
+  font-size: 15px;
+  padding: 14px 28px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  text-decoration: none;
+  transition: all 0.25s ease;
+  white-space: nowrap;
+}
+
+.btn-agency-secondary:hover {
+  background: rgba(168, 230, 74, 0.1);
+  border-color: var(--rp-lime);
+  color: var(--rp-lime) !important;
+  transform: translateY(-2px);
+}
+
+/* Hero Right Column KPI Metrics Card */
+.hero-visual-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.hero-floating-badge {
+  position: relative;
+  width: 100%;
+  background: linear-gradient(155deg, rgba(35, 17, 61, 0.92), rgba(17, 7, 31, 0.96));
+  backdrop-filter: blur(12px);
+  border: 1px solid var(--rp-border-lime);
+  color: #ffffff;
+  padding: 22px;
+  border-radius: 22px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.45);
+}
+
+.hero-metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+  width: 100%;
+}
+
+.hero-metric-card {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  padding: 18px 16px;
+  text-align: left;
+  transition: transform 0.25s ease, border-color 0.25s ease;
+}
+
+.hero-metric-card:hover {
+  transform: translateY(-3px);
+  border-color: rgba(168, 230, 74, 0.45);
+}
+
+.hero-metric-card strong {
+  display: block;
+  font-family: var(--heading-font);
+  font-size: clamp(22px, 2.5vw, 28px);
+  font-weight: 800;
+  color: var(--rp-lime);
+  line-height: 1.15;
+}
+
+.hero-metric-card span {
+  display: block;
+  font-size: 13px;
+  color: var(--rp-text-body);
+  margin-top: 6px;
+  font-weight: 500;
+  line-height: 1.35;
+}
+
+/*--------------------------------------------------------------
+# Trusted Industries / Niches Strip
+--------------------------------------------------------------*/
+.trust-strip {
+  background: #140824;
+  border-bottom: 1px solid var(--rp-border-lime);
+  padding: 24px 0;
+}
+
+.trust-strip .container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.trust-strip-inner {
+  flex: 1 1 calc(50% - 16px);
+  min-width: 280px;
+  background: rgba(255, 255, 255, 0.025);
+  border: 1px solid var(--rp-border-subtle);
+  border-radius: 16px;
+  padding: 10px 10px;
+}
+
+.trust-strip-label {
+  font-size: 12.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--rp-lime);
+  margin: 0 0 12px 0;
+}
+
+.trust-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.trust-pill {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  color: #f1f5f9;
+  font-size: 12.5px;
+  font-weight: 500;
+  padding: 6px 13px;
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: all 0.2s ease;
+}
+
+.trust-pill i {
+  color: var(--rp-lime);
+}
+
+.trust-pill:hover {
+  border-color: var(--rp-lime);
+  background: rgba(168, 230, 74, 0.1);
+}
+
+/*--------------------------------------------------------------
+# Case Studies Header & Filter Pills (#case-study)
+--------------------------------------------------------------*/
+.cs-section {
+  background: var(--rp-bg-primary) !important;
+  padding: 72px 0 20px !important;
+}
+
+.cs {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.cs-head {
+  max-width: 650px;
+}
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--rp-lime) !important;
+  background: var(--rp-lime-soft);
+  border: 1px solid rgba(168, 230, 74, 0.3);
+  padding: 5px 14px;
+  border-radius: 999px;
+  font-size: 11.5px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+}
+
+.eyebrow::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--rp-lime);
+}
+
+.cs h2 {
+  font-size: clamp(28px, 3.6vw, 40px);
+  font-weight: 800;
+  color: #ffffff !important;
+  margin-bottom: 10px;
+  line-height: 1.2;
+}
+
+.cs .sub {
+  color: var(--rp-text-body) !important;
+  font-size: 16px;
+  line-height: 1.65;
+  max-width: 580px;
+  margin: 0;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.pill {
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  background: rgba(255, 255, 255, 0.05);
+  color: #e2e8f0;
+  border-radius: 999px;
+  padding: 9px 18px;
+  font-size: 13.5px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.pill:hover {
+  border-color: var(--rp-lime);
+  color: var(--rp-lime);
+}
+
+.pill.active,
+.pill[aria-pressed="true"] {
+  background: var(--rp-lime);
+  color: #11071f;
+  border-color: var(--rp-lime);
+  font-weight: 700;
+  box-shadow: 0 4px 16px rgba(168, 230, 74, 0.28);
+}
+
+/*--------------------------------------------------------------
+# Portfolio Case Studies Cards Upgrade (#portfolio)
+--------------------------------------------------------------*/
+.portfolio.section {
+  background: var(--rp-bg-primary) !important;
+  padding: 24px 0 80px !important;
+}
+
+.portfolio-card-inner {
+  background: var(--rp-card-bg);
+  border-radius: 18px;
+  overflow: hidden;
+  border: 1px solid var(--rp-border-subtle);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.35);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.portfolio-card-inner:hover {
+  transform: translateY(-5px);
+  border-color: var(--rp-border-lime);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.5);
+}
+
+.portfolio-img-wrap {
+  position: relative;
+  height: 220px;
+  overflow: hidden;
+  background: #0b0514;
+}
+
+.portfolio-img-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.portfolio-card-inner:hover .portfolio-img-wrap img {
+  transform: scale(1.05);
+}
+
+.portfolio-badge {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background: rgba(17, 7, 31, 0.92);
+  color: var(--rp-lime);
+  font-size: 11.5px;
+  font-weight: 700;
+  padding: 5px 12px;
+  border-radius: 999px;
+  border: 1px solid rgba(168, 230, 74, 0.4);
+}
+
+.portfolio-card-body {
+  padding: 22px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.portfolio-card-body h4 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0 0 10px 0;
+  line-height: 1.35;
+}
+
+.portfolio-card-body p {
+  font-size: 14.5px;
+  color: var(--rp-text-body);
+  line-height: 1.6;
+  margin: 0 0 16px 0;
+}
+
+.portfolio-card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  flex-wrap: wrap;
+  padding-top: 14px;
+  border-top: 1px solid var(--rp-border-subtle);
+}
+
+.portfolio-metric-pill {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--rp-lime);
+  background: var(--rp-lime-soft);
+  border: 1px solid rgba(168, 230, 74, 0.25);
+  padding: 4px 10px;
+  border-radius: 6px;
+}
+
+.portfolio-zoom-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.portfolio-zoom-btn:hover {
+  color: var(--rp-lime);
+}
+
+/*--------------------------------------------------------------
+# Landing Page Funnel Section (#landing-page-funnel)
+--------------------------------------------------------------*/
+.funnel-section {
+  background: radial-gradient(circle at 90% 15%, rgba(168, 230, 74, 0.1), transparent 40%),
+              linear-gradient(180deg, #11071f 0%, #170a29 100%) !important;
+  padding: 84px 0 !important;
+  border-bottom: 1px solid var(--rp-border-subtle);
+}
+
+.funnel-section .container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.funnel-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-bottom: 36px;
+}
+
+.funnel-header h2 {
+  font-size: clamp(28px, 3.8vw, 42px);
+  font-weight: 800;
+  line-height: 1.16;
+  color: #ffffff !important;
+  margin: 0 0 12px 0;
+  max-width: 700px;
+}
+
+.funnel-header .sub {
+  color: var(--rp-text-body) !important;
+  font-size: 16px;
+  line-height: 1.65;
+  max-width: 640px;
+  margin: 0;
+}
+
+.funnel-filter-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.funnel-pill {
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  background: rgba(255, 255, 255, 0.05);
+  color: #e2e8f0;
+  border-radius: 999px;
+  padding: 9px 18px;
+  font-size: 13.5px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.funnel-pill:hover {
+  border-color: var(--rp-lime);
+  color: var(--rp-lime);
+}
+
+.funnel-pill.active {
+  background: var(--rp-lime);
+  color: #11071f;
+  border-color: var(--rp-lime);
+  font-weight: 700;
+  box-shadow: 0 4px 16px rgba(168, 230, 74, 0.28);
+}
+
+/* 3-Stage Funnel Conversion Blueprint Row */
+.funnel-blueprint-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+  margin-bottom: 36px;
+}
+
+.funnel-step-box {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(168, 230, 74, 0.2);
+  border-radius: 16px;
+  padding: 22px;
+  position: relative;
+  transition: transform 0.25s ease, border-color 0.25s ease;
+}
+
+.funnel-step-box:hover {
+  transform: translateY(-3px);
+  border-color: rgba(168, 230, 74, 0.45);
+}
+
+.funnel-step-num {
+  display: inline-block;
+  font-size: 11.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--rp-lime);
+  background: rgba(168, 230, 74, 0.12);
+  padding: 4px 11px;
+  border-radius: 999px;
+  margin-bottom: 10px;
+}
+
+.funnel-step-box h4 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0 0 8px 0;
+}
+
+.funnel-step-box p {
+  font-size: 14px;
+  color: var(--rp-text-body);
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Funnel Showcase Cards Grid */
+.funnel-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.funnel-card {
+  background: var(--rp-card-bg);
+  border: 1px solid var(--rp-border-subtle);
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.38);
+  transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.funnel-card:hover {
+  transform: translateY(-6px);
+  border-color: var(--rp-border-lime);
+  box-shadow: 0 20px 44px rgba(0, 0, 0, 0.52);
+}
+
+.funnel-card-visual {
+  background: #0b0514;
+  border-bottom: 1px solid var(--rp-border-subtle);
+}
+
+.browser-topbar {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 14px;
+  background: #140824;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.browser-topbar .dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.browser-topbar .dot.red { background: #f87171; }
+.browser-topbar .dot.yellow { background: #fbbf24; }
+.browser-topbar .dot.green { background: #4ade80; }
+
+.browser-url {
+  margin-left: 8px;
+  font-size: 11.5px;
+  color: #94a3b8;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 3px 10px;
+  border-radius: 6px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 220px;
+}
+
+.funnel-preview-img {
+  position: relative;
+  height: 225px;
+  overflow: hidden;
+  cursor: zoom-in;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.funnel-preview-img:focus-visible {
+  outline: 2px solid var(--rp-lime);
+  outline-offset: -2px;
+}
+
+.funnel-preview-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  transition: transform 0.45s ease;
+}
+
+.funnel-card:hover .funnel-preview-img img {
+  transform: scale(1.06);
+}
+
+.funnel-zoom-icon {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: rgba(17, 7, 31, 0.88);
+  border: 1px solid rgba(168, 230, 74, 0.45);
+  color: var(--rp-lime);
+  display: grid;
+  place-items: center;
+  font-size: 15px;
+  z-index: 2;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.45);
+  transition: transform 0.25s ease, background 0.25s ease, color 0.25s ease;
+  pointer-events: none;
+}
+
+.funnel-preview-img:hover .funnel-zoom-icon {
+  background: var(--rp-lime);
+  color: #11071f;
+  transform: scale(1.08);
+}
+
+.funnel-cvr-badge {
+  position: absolute;
+  bottom: 12px;
+  right: 12px;
+  background: rgba(17, 7, 31, 0.94);
+  color: var(--rp-lime);
+  border: 1px solid rgba(168, 230, 74, 0.45);
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  z-index: 2;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.45);
+  pointer-events: none;
+}
+
+.funnel-card-content {
+  padding: 24px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.funnel-niche-tag {
+  font-size: 11.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--rp-lime);
+  margin-bottom: 8px;
+}
+
+.funnel-card-content h3 {
+  font-size: 19px;
+  font-weight: 800;
+  color: #ffffff;
+  line-height: 1.32;
+  margin: 0 0 10px 0;
+}
+
+.funnel-card-content p {
+  font-size: 14.5px;
+  color: var(--rp-text-body);
+  line-height: 1.62;
+  margin: 0 0 16px 0;
+}
+
+.funnel-feature-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.funnel-feature-list li {
+  font-size: 13.5px;
+  color: #e2e8f0;
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  line-height: 1.45;
+}
+
+.funnel-feature-list li i {
+  color: var(--rp-lime);
+  font-size: 14px;
+  margin-top: 2px;
+  flex-shrink: 0;
+}
+
+.funnel-card-footer {
+  margin-top: auto;
+  padding-top: 14px;
+  border-top: 1px solid var(--rp-border-subtle);
+  display: flex;
+  align-items: center;
+}
+
+.funnel-metric {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+  background: rgba(168, 230, 74, 0.07);
+  border: 1px solid rgba(168, 230, 74, 0.22);
+  border-radius: 12px;
+  padding: 10px 14px;
+}
+
+.funnel-metric strong {
+  display: inline-block;
+  font-family: var(--heading-font);
+  font-size: 16px;
+  font-weight: 800;
+  color: var(--rp-lime);
+  line-height: 1.2;
+}
+
+.funnel-metric span {
+  display: inline-block;
+  font-size: 12.5px;
+  font-weight: 500;
+  color: var(--rp-text-body);
+}
+
+/* Funnel Image Zoom Lightbox */
+.funnel-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 100000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(8, 4, 15, 0.94);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  opacity: 0;
+  transition: opacity 0.25s ease;
+  padding: 64px 16px 56px;
+}
+
+.funnel-lightbox[hidden] {
+  display: none !important;
+}
+
+.funnel-lightbox.open {
+  opacity: 1;
+}
+
+.flb-topbar {
+  position: absolute;
+  top: 16px;
+  left: 20px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 3;
+  pointer-events: none;
+}
+
+.flb-count {
+  pointer-events: auto;
+  font-family: var(--button-font);
+  font-size: 13.5px;
+  font-weight: 600;
+  color: #e2e8f0;
+  background: rgba(26, 12, 46, 0.85);
+  border: 1px solid rgba(168, 230, 74, 0.3);
+  padding: 6px 14px;
+  border-radius: 999px;
+}
+
+.flb-controls {
+  pointer-events: auto;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.flb-btn {
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border: 1px solid rgba(168, 230, 74, 0.38);
+  border-radius: 50%;
+  background: rgba(26, 12, 46, 0.88);
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 1;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  z-index: 3;
+}
+
+.flb-btn.flb-zoom-btn {
+  font-size: 18px;
+}
+
+.flb-btn:hover {
+  background: var(--rp-lime);
+  color: #11071f;
+  border-color: var(--rp-lime);
+}
+
+.flb-btn:focus-visible {
+  outline: 2px solid var(--rp-lime);
+  outline-offset: 2px;
+}
+
+.flb-prev,
+.flb-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.flb-prev {
+  left: 20px;
+}
+
+.flb-next {
+  right: 20px;
+}
+
+.flb-stage {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 92vw;
+  max-height: 80vh;
+  overflow: hidden;
+  border-radius: 14px;
+  transform: scale(0.94);
+  transition: transform 0.28s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.funnel-lightbox.open .flb-stage {
+  transform: scale(1);
+}
+
+.flb-stage.is-zoomed {
+  overflow: auto;
+  align-items: flex-start;
+  justify-content: flex-start;
+  -webkit-overflow-scrolling: touch;
+  cursor: zoom-out;
+}
+
+.flb-stage img {
+  display: block;
+  max-width: 90vw;
+  max-height: 78vh;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  border-radius: 12px;
+  border: 1px solid rgba(168, 230, 74, 0.35);
+  box-shadow: 0 24px 64px rgba(0, 0, 0, 0.65);
+  cursor: zoom-in;
+  transition: transform 0.28s ease;
+  margin: auto;
+}
+
+.flb-stage.is-zoomed img {
+  max-width: none;
+  max-height: none;
+  width: min(1400px, 175vw);
+  cursor: zoom-out;
+}
+
+.flb-caption {
+  position: absolute;
+  bottom: 16px;
+  left: 20px;
+  right: 20px;
+  text-align: center;
+  color: #e2e8f0;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  pointer-events: none;
+}
+
+/*--------------------------------------------------------------
+# Tech Stack Strip inside Why Hire Me
+--------------------------------------------------------------*/
+.wh-section {
+  background: linear-gradient(180deg, #140824 0%, #1a0b2e 100%) !important;
+  border-top: 1px solid var(--rp-border-subtle);
+  border-bottom: 1px solid var(--rp-border-subtle);
+  padding: 64px 0 !important;
+}
+
+.tech-stack-wrap {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 16px;
+  text-align: center;
+}
+
+.tech-stack-title {
+  font-size: clamp(24px, 3vw, 32px);
+  font-weight: 800;
+  color: #ffffff;
+  margin-bottom: 28px;
+  letter-spacing: -0.01em;
+}
+
+.tech-stack-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+
+.tech-chip {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 14px;
+  padding: 16px 18px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  transition: all 0.25s ease;
+}
+
+.tech-chip:hover {
+  transform: translateY(-3px);
+  border-color: var(--rp-border-lime);
+  background: rgba(168, 230, 74, 0.07);
+}
+
+.tech-chip i {
+  font-size: 24px;
+  color: var(--rp-lime);
+  flex-shrink: 0;
+}
+
+.tech-chip strong {
+  display: block;
+  font-family: var(--heading-font);
+  font-size: 14.5px;
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 1.25;
+}
+
+.tech-chip small {
+  display: block;
+  font-size: 12px;
+  color: var(--rp-text-muted);
+  margin-top: 2px;
+}

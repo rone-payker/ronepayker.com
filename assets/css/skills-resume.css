@@ -1,0 +1,76 @@
+/**
+* Template Name: RonePayker-Digital Marketer & AI Powered Google Ads Specialist
+* Author: Md. Rone Payker
+* Scoped styles for skills/timeline components
+*/
+
+.skills-wrap {
+  max-width: 1280px;
+  margin: 0 auto;
+  background: #1a0c2e;
+  color: #f8fafc;
+  border-radius: 18px;
+  padding: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+}
+
+.skills-wrap h2 {
+  margin: 0 0 6px;
+  font-size: 28px;
+  font-weight: 800;
+  color: #ffffff;
+}
+
+.skills {
+  position: sticky;
+  top: 24px;
+  align-self: start;
+}
+
+.skills .skill {
+  margin-bottom: 18px;
+  transition: opacity 0.25s;
+}
+
+.skills .skill .sk-row {
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0 0 6px;
+}
+
+.skills .track {
+  height: 8px;
+  background: #23113d;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.skills .fill {
+  height: 100%;
+  background: #a8e64a;
+  border-radius: 8px;
+}
+
+#tl.tl {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#tl.tl .item {
+  display: grid;
+  grid-template-columns: 62px 1fr;
+  gap: 34px;
+  position: relative;
+  padding: 12px 14px 12px 0;
+  margin-bottom: 6px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
